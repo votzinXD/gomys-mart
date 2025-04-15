@@ -1,29 +1,36 @@
-<!-- Este é o começo do nosso site. Dizemos que é HTML e colocamos a língua (pt-BR = português do Brasil) -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
-  <!-- Aqui vai as informações invisíveis da página, como o título e o link pro estilo -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Início - Gomys Mart</title>
-  <link rel="stylesheet" href="style.css"> <!-- Chamando o estilo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gomys Mart Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Topo do site com o nome -->
-  <header>
-    <h1>Gomys Mart</h1>
-  </header>
-
-  <!-- Parte principal da página -->
-  <main>
-    <h2>Bem-vindo ao Gomys Mart</h2> <!-- Título da parte principal -->
-    <p>Seu mercado online prático e rápido.</p> <!-- Um pequeno texto -->
-    <a href="pagina2.html" class="btn">Ir para a próxima página</a> <!-- Um botão que vai pra próxima página -->
-  </main>
-
-  <!-- Parte de baixo do site -->
-  <footer>
-    <p>&copy; 2025 Gomys Mart. Todos os direitos reservados.</p>
-  </footer>
+    <div class="login-container">
+        <div class="illustration">
+           
+        </div>
+        <h1>Gomys Mart</h1>
+        <form>
+            <div class="input-group">
+                <label for="username"> Usuário </label>
+                <input type="text" id="username" name="username" placeholder="Nome de usuário">
+            </div>
+            <div class="input-group">
+                <label for="email"> Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Senha">
+            </div>
+            <button type="submit" class="login-button">Entrar</button>
+            <div class="links">
+                <a href="pagina2.html">nao tenho uma conta</a>
+                <a href="pagina3.html">çççç</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

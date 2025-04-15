@@ -1,32 +1,75 @@
-
-/* Este é o arquivo de estilo (CSS) */
-/* Ele serve para deixar o site bonito: com cores, espaçamentos, tamanhos etc */
-
 body {
-  font-family: Arial, sans-serif; /* Tipo de letra que vamos usar */
-  margin: 0; /* Tirando margem branca das bordas */
-  padding: 0;
-  background-color: #f8f8f8; /* Cor de fundo bem clarinha */
+  font-family: Arial, sans-serif;
+  background-color: #950303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-header, footer {
-  background-color: #4CAF50; /* Verde bonito para o topo e o rodapé */
-  color: white; /* Letras brancas */
-  text-align: center; /* Tudo centralizado */
-  padding: 1em; /* Espaço dentro do topo e rodapé */
+.login-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
 }
 
-main {
-  padding: 20px; /* Espaço interno da parte principal */
-  text-align: center; /* Tudo no centro da tela */
+.illustration img {
+  width: 100%;
+  height: auto;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  text-decoration: none;
+h1 {
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group label img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.login-button {
+  background-color: #d32f2f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #d11313;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
