@@ -1,0 +1,32 @@
+
+/* Este é o arquivo de estilo (CSS) */
+/* Ele serve para deixar o site bonito: com cores, espaçamentos, tamanhos etc */
+
+body {
+  font-family: Arial, sans-serif; /* Tipo de letra que vamos usar */
+  margin: 0; /* Tirando margem branca das bordas */
+  padding: 0;
+  background-color: #f8f8f8; /* Cor de fundo bem clarinha */
+}
+
+header, footer {
+  background-color: #4CAF50; /* Verde bonito para o topo e o rodapé */
+  color: white; /* Letras brancas */
+  text-align: center; /* Tudo centralizado */
+  padding: 1em; /* Espaço dentro do topo e rodapé */
+}
+
+main {
+  padding: 20px; /* Espaço interno da parte principal */
+  text-align: center; /* Tudo no centro da tela */
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
